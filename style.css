@@ -40,8 +40,31 @@ margin: 0 auto;}
 .content{flex: 1 1 auto;}
 .advantages{padding: 50px 0px;}
 
-.advantages__row{
-    display: flex;
-justify-content: space-between}
+.advantages__row{display: flex;
+justify-content: space-between;}
 
 .advantages__list li{list-style: none; display: inline-flex; margin: 10px; overflow: hidden;}
+
+
+h2{width: 552px; height: 210px; top: 14px; font-size: 65px;}
+h3{width: 471px; height: 140px; top: 14px; font-size: 25px; margin-top: 51px;}
+h4{width: 369px; height: 25px; padding-top: 30px;}
+
+.local__row{background-color: #FF9C7D; height: 455px; display: flex;
+flex-direction: column; flex-wrap: wrap; align-items: center;}
+
+.card{padding: 50px;}
+
+.column{background-color: #FFF8E4; padding: 50px 0px 20px 0px; width: 1440px; height: 1033px;}
+.column__title{text-align: center; font-size: 50px;}
+.column__row{display: flex;  flex-wrap: wrap; justify-content: center; align-content: space-around;}
+.column__columns{flex: 0 1 30%;}
+
+.item__body{padding: 20px;}
+.items__text{font-size: 18px;}
+.items__title{font-size: 25px; line-height: 35px; }
+
+.flexs__row{display: flex; flex-direction: column; flex-wrap: wrap; justify-content: center; align-content: space-between;}
+
+
+.flex__columns{flex: 0 1 30%;}
